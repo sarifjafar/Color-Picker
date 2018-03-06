@@ -12,7 +12,8 @@ var body = document.querySelector("#doc_body");
 
 function changeColor(){
     body.style.background = "linear-gradient(to right, "+color_one.value+" , "+color_two.value+")";
-    h3.textContent = body.style.background+" ;";
+    //h3.textContent = body.style.background+" ;";
+    h3.textContent = olor_one.value+" "+color_two.value;
 }
 
 
